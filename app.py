@@ -6,7 +6,7 @@ from PIL import Image
 from ultralytics import YOLO
 
 # Load YOLOv12 vehicle detection model
-model = YOLO("Desktop/vehicle-detection/best.pt")  # Replace with your YOLO model path
+model = YOLO("best.pt")  # Replace with your YOLO model path
 
 # Page Configuration
 st.set_page_config(page_title="🚗 Vehicle Detection", layout="centered")
